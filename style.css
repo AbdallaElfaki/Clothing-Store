@@ -1,29 +1,49 @@
 body {
-    background-color: skyblue;
-}
-
-nav {
-    text-transform: uppercase;
-    font-family: "BAZOOKA";
+    background-color: black;
 }
 
 .nav-item {
-    background-color: blue;
+    background-color: red !important;
+}
+
+.footer-item {
+    font-style: italic;
 }
 
 .nav-link:hover {
     opacity: 1.0;
-    background-color: red;
+    background-color: black;
+}
+
+.nav-link {
+    color: black
+}
+
+.image {
+    height:10px;
 }
 
 header {
     background-size: cover;
     background-image: url(https://www.wikihow.com/images/thumb/6/6a/Customize-Clothes-Step-1.jpg/aid9746772-v4-728px-Customize-Clothes-Step-1.jpg);
     width: 500px;
-    height: 1000px;
+    height: 500px;
 }
 
 .accessories img {
-    height: 50px;
-    width: 200px;
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.yourElement {
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
 }
