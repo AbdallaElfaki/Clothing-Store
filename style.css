@@ -1,13 +1,20 @@
 body {
-    background-color: black;
+    background-color: #f2f2f2;
 }
 
 .nav-item {
-    background-color: red !important;
+    background-color: black;
+    color: pink;
 }
 
-.footer-item {
-    font-style: italic;
+
+.navbar {
+    background-color: black;
+}
+
+.navbar-toggler-icon {
+    background-color: black;
+
 }
 
 .nav-link:hover {
@@ -16,34 +23,68 @@ body {
 }
 
 .nav-link {
-    color: black
+    color: skyblue;
+}
+
+#image {
+    height: 100px;
+    width: 100px;
 }
 
 .image {
-    height:10px;
+    height: 10px;
 }
 
 header {
     background-size: cover;
     background-image: url(https://www.wikihow.com/images/thumb/6/6a/Customize-Clothes-Step-1.jpg/aid9746772-v4-728px-Customize-Clothes-Step-1.jpg);
-    width: 500px;
-    height: 500px;
+    width: 100px;
+    height: 100px;
 }
 
 .accessories img {
+    text-align: center;
+}
+
+h5 {
+    color: black;
     text-align: left;
 }
 
 h2 {
-    text-align: center;
+    text-align: left;
 }
 
 p {
-    text-align: center;
+    text-align: left;
+    color: black;
 }
 
-.yourElement {
-  animation-duration: 3s;
-  animation-delay: 2s;
-  animation-iteration-count: infinite;
+.accessories i {
+    text-align: left;
+    padding: 17px;
+    background-color: #686868;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.clearance img {
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    text-align: left;
+}
+
+.button {
+    color: white;
+}
+
+.footer {
+    font-style: bold;
+    font-size: medium;
+    color: black;
+    text-align-last: left
 }

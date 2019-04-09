@@ -1,196 +1,212 @@
-<DOCTYPE html>
-    <html>
+<!DOCTYPE html>
+<html>
 
-    <head>
-        <title>Les Rocks Clothing Store</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-        <!-- Font Awesome -->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-        <!-- Bootstrap core CSS -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-        <!-- Material Design Bootstrap -->
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/css/mdb.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="animate.min.css">
-    </head>
+<head>
+    <title>Les Rock Clothing Store</title>
 
-    <body>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.7.6/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 
+</head>
 
-        <nav class="navbar navbar-dark bg-dark">
-            <a class="navbar-brand" href="#"> <img class="image" src="Logo.jpg"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+<body>
+
+    <!--Navbar: Taz-->
+    <nav class="navbar">
+        <a class="navbar-brand" href="#"> <img class="image" src="Logo.jpg" id="image"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">Features</a>
-                    <a class="nav-item nav-link" href="#">Pricing</a>
-                    <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                </div>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+
+                <a class="nav-item nav-link" href="#">Pricing</a>
+                <a class="nav-item nav-link" href="#accessories">Accessories</a>
+                <a class="nav-item nav-link" href="#contact">Contact Us</a>
+                <a class="nav-item nav-link" href="#team">Meet Our Team</a>
+                <a class="nav-item nav-link" href="#about">About Us</a>
+
             </div>
-        </nav>
+        </div>
+    </nav>
 
-        <!--Special Deals Features: Abdalla-->
+    <!--Special Deals Features: Abdalla-->
 
-        <section class="features container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="bd-example">
-                        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                            </ol>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="Blackandwhite2.jpg" class="d-block w-100" alt="...">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>First slide label</h5>
-                                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="https://images.unsplash.com/photo-1454210801264-78d1918a2ae2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" class="d-block w-100" alt="...">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>Second slide label</h5>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    </div>
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="Whiteshirt.jpg" class="d-block w-100" alt="...">
-                                    <div class="carousel-caption d-none d-md-block">
-                                        <h5>Third slide label</h5>
-                                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                                    </div>
+    <section class="features container" id="home">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="bd-example">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="Blackandwhite2.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>New Deals!</h5>
+                                    <p>Women's Blouses now $10-$30!</p>
+                                    <p>T-Shirts now $5-$10!</p>
+                                    <p>Skirts $20-$40!</p>
                                 </div>
                             </div>
-                            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                            <div class="carousel-item">
+                                <img src="https://images.unsplash.com/photo-1454210801264-78d1918a2ae2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Women's Jackets NOW $30-$50!</h5>
+                                    <p>Sweaters $20-$40!</p>
+                                    <p></p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Whiteshirt.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Men's Clothing</h5>
+                                    <p>Shirts $5-$20!</p>
+                                    <p>Jeans $20-$40!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="sr-only">Previous</span>
     </a>
-                            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
-    </a>
-                        </div>
+    </div>
                     </div>
-
                 </div>
             </div>
+        </div>
+        </div>
+    </section>
 
+
+    <!--Contacts and Accessories: Kellie-->
+    <section id="accessories" class="accessories container" id="accessories">
+        <h2>Accessories</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="BlackWatch.jpg_v=1499170961">
+                <h6>This sleek, modern black watch is ideal for someone of high class.</h6>
             </div>
-
-
-        </section>
-
-        <section class="Select container">
-            <div class="row">
-                <div class="col-md-6">
-
-                </div>
-
-                <div class="col-md-6">
-
-                </div>
+            <div class="col-md-4">
+                <img src="ClassyRing.jpg">
+                <h6>Designed by our best, this elegant ring is perfect for the perfect lady.</h6>
             </div>
-
-        </section>
-
-
-        <!--Latest/Clearance: Tas-->
-        <section class="clearance container">
-
-            <h1>Latest Clothing Features!</h1>
-
-            <div class="row">
-
-                <div class="col-md-4">
-                    <img src="https://i.pinimg.com/originals/ca/6c/9a/ca6c9aeb39463402214d5a439d49711a.jpg">
-
-
-
-
-
-                </div>
-
-        </section>
-
-
-
-        <!--Contacts and Accessories: Kellie-->
-        <section id="accessories" class="accessories container">
-            <h2>Accessories</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="BlackWatch.jpg_v=1499170961">
-                    <h1 class="animated infinite fadeInUp delay-2s"> <img src="BlackWatch.jpg_v=1499170961"> </h1>
-                    <h6>This sleek, modern black watch is ideal for someone of high class.</h6>
-                </div>
-                <div class="col-md-4">
-                    <img src="ClassyRing.jpg">
-                    <h6>Designed by our best, this elegant ring is perfect for the perfect lady.</h6>
-                </div>
-                <div class="col-md-4">
-                    <img src="Gucci.jpg">
-                    <h6>This is our newest, most stylish bracelet.</h6>
-                </div>
-                <div class="col-md-12">
-                    <h2>Contact Us</h2>
-                    <hr></hr>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="input-group input-group-lg">
-                                <div class="input-group-prepend">
-                                    <i class="fas fa-user"></i>
-                                </div>
-                                <input type="text" class="form-control" aria-label="Sizing example input" placeholder="Name" aria-describedby="inputGroup-sizing-lg">
+            <div class="col-md-4">
+                <img src="Gucci.jpg">
+                <h6>This is our newest, most stylish bracelet.</h6>
+            </div>
+            <div class="col-md-12" id="contacts">
+                <h2>Contact Us</h2>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="input-group input-group-lg">
+                            <div class="input-group-prepend">
+                                <i class="fas fa-user"></i>
                             </div>
+                            <input type="text" class="form-control" aria-label="Sizing example input" placeholder="Name" aria-describedby="inputGroup-sizing-lg">
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="input-group input-group-lg">
-                                <div class="input-group-prepend">
-                                    <i class="fas fa-envelope"></i>
-                                </div>
-                                <input type="text" class="form-control" aria-label="Sizing example input" placeholder="Email" aria-describedby="inputGroup-sizing-lg">
+                </div>  <h2>Contact Us</h2>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="input-group input-group-lg">
+                            <div class="input-group-prepend">
+                                <i class="fas fa-user"></i>
                             </div>
+                            <input type="text" class="form-control" aria-label="Sizing example input" placeholder="Name" aria-describedby="inputGroup-sizing-lg">
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="input-group input-group-lg">
-                                <div class="input-group-prepend">
-                                    <i class="fas fa-phone"></i>
-                                </div>
-                                <input type="text" class="form-control" aria-label="Sizing example input" placeholder="Phone Number" aria-describedby="inputGroup-sizing-lg">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="input-group">
-                        <div class="input-group-prepend">
-                        </div>
-                        <textarea class="form-control" aria-label="With textarea"></textarea>
-                    </div>
-                    <button type="button" class="btn btn-secondary btn-lg btn-block">Submit Message</button>
                 </div>
+                <br> </br>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="input-group input-group-lg">
+                            <div class="input-group-prepend">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <input type="text" class="form-control" aria-label="Sizing example input" placeholder="Email" aria-describedby="inputGroup-sizing-lg">
+                        </div>
+                    </div>
+                </div>
+                <br></br>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="input-group input-group-lg">
+                            <div class="input-group-prepend">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <input type="text" class="form-control" aria-label="Sizing example input" placeholder="Phone Number" aria-describedby="inputGroup-sizing-lg">
+                        </div>
+                    </div>
+                </div>
+                <br></br>
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                    </div>
+                    <textarea class="form-control" aria-label="With textarea" placeholder="Enter Message Here"></textarea>
+                </div>
+                <br></br>
+                <button type="button" class="btn btn-secondary btn-lg btn-block">Submit Message</button>
+            </div>
+        </div>
+    </section>
+    <br></br>
+
+    <!--Meet our Team: Abdalla-->
+
+    <section class="team container" id="team">
+        <section id="team" class="team container">
+            <h1>Meet our Team</h1>
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRLOj3Qe5UV_cjLaM9FWrTu4QSVRNie8WiOME2awDmqJVX8I2p4g"></img>
+                    <h3>Jim Lauren</h3>
+                    <h4>Founder</h4>
+                    <p> </p>
+                </div>
+                <div class="col-md-3">
+                    <img src="data:image/jpeg;base64,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"></img>
+                    <h3>Jason Holmes</h3>
+                    <h4>Founder</h4>
+                    <p> </p>
+                </div>
+                <div class="col-md-3">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhJVtFvwq0HrfasaNQ4TrEhNxQ5Tg_Iyoaj9jOQGRZn9k8RdTP"></img>
+                    <h3>Jessica Jacobs</h3>
+                    <h4>Manager</h4>
+                    <p> </p>
+                </div>
+                <div class="col-md-3">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUfFElA645myFWKiajb30uEGLu2vSqQX5RozMb6Ob1Cc-aTyb2"></img>
+                    <h3>Christopher Jackson</h3>
+                    <h4>Designer</h4>
+                    <p> </p>
+                </div>
+
             </div>
         </section>
-        <br></br>
 
-
-        <!--Footnote and Designer: Sam-->
-
-        <footer class="footer">
+        <!--Footnote and Designer: Samson-->
+        <footer class="footer" id="about">
             <div class="row">
                 <div class="col-md-4">
-                    <h1> About Us </h1>
-                    <p>Les Rock Clothing was founded in 1986 by Jim Lauren and Jason Holmes. They intended to provide people with a store that made it easier for people to shop for business attire colors. Instead of hoping that a clothing store has a certain blouse or shirt
-                        that you like in black or white, you can be certain that Les Rocks Clothing will have it. They use a wide range of designs in order to attract customers to their store.
-                    </p>
+                    <h2> About Us </h2>
+                    <p>Les Rock Clothing was founded in 1986 by Jim Lauren and Jason Holmes. They intended to provide people with a store that made it easier for people to shop for business attire colors. Instead of hoping that a clothing store has a certain
+                        blouse or shirt that you like in black or white, you can be certain that Les Rocks Clothing will have it. They use a wide range of designs in order to attract customers to their store.s</p>
                     <br></br>
                     <p>Trusted by Macy's, Nordstrom Rack, Target, and Walmart</p>
                 </div>
@@ -203,9 +219,9 @@
                     <p>(203) 227-8300</p>
                 </div>
                 <div class="col-md-4">
-                    <h3>Social Media</h3>
-                    <p> <i><i class="fab fa-instagram"></i> Instagram</p>
-                    <p> <i> <i class="fab fa-facebook-square"></i> </i> Facebook </p>
+                    <h2>Social Media</h2>
+                    <p> class="fab fa-instagram"></i> Instagram</p>
+                    <p> class="fab fa-facebook-square"></i> </i> Facebook </p>
                 </div>
             </div>
         </footer>
@@ -216,8 +232,6 @@
 
 
 
+</body>
 
-
-    </body>
-
-    </html>
+</html>
