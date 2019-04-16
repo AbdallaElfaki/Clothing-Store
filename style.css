@@ -1,25 +1,28 @@
 body {
-    background-color: #f2f2f2;
+    background-color:white;
 }
 
 .nav-item {
-    background-color: black;
+    background-color:black;
     color: pink;
 }
 
+h2 {
+    text-align: center;
+}
 
 .navbar {
-    background-color: black;
+    background-color:black;
 }
 
 .navbar-toggler-icon {
-    background-color: black;
+    background-color:white;
 
 }
 
 .nav-link:hover {
     opacity: 1.0;
-    background-color: black;
+    background-color:black;
 }
 
 .nav-link {
@@ -29,6 +32,7 @@ body {
 #image {
     height: 100px;
     width: 100px;
+    border-radius:50%;
 }
 
 .image {
@@ -44,14 +48,11 @@ header {
 
 .accessories img {
     text-align: center;
+box-shadow: 0 0 30px 2px #888888;
 }
 
 h5 {
     color: black;
-    text-align: left;
-}
-
-h2 {
     text-align: left;
 }
 
@@ -72,10 +73,11 @@ p {
 .clearance img {
     width: 100px;
     height: 100px;
+    box-shadow: 0 0 30px 2px #888888;
 }
 
 h1 {
-    text-align: left;
+    text-align: center;
 }
 
 .button {
@@ -83,8 +85,47 @@ h1 {
 }
 
 .footer {
-    font-style: bold;
     font-size: medium;
     color: black;
-    text-align-last: left
 }
+
+#logo {
+    height: 150px;
+    width: 150px;
+    
+}
+
+.team img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.team p{
+    text-align: center;
+} 
+
+#clothes button{
+    justify-content:center;
+}
+
+
+#clothes2 button{
+    margin-right:87px;
+}
+
+#blackclothes{
+    text-align: center;
+}
+
+#clothes{
+    text-align:center;
+}
+
+#accessories button{
+    background-color: black;
+    
+}
+    
+
+
